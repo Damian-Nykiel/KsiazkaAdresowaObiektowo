@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1590998502 source:c:\users\damian\desktop\ksiazkaadresowauml\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1590999218 source:c:\users\damian\desktop\ksiazkaadresowauml\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1590997807 c:\users\damian\desktop\ksiazkaadresowauml\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikMenedzer.h"
+	"AdresatMenedzer.h"
+
+1590336147 c:\users\damian\desktop\ksiazkaadresowauml\uzytkownik.h
+	<iostream>
+
+1590319953 source:c:\users\damian\desktop\ksiazkaadresowauml\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1590751803 source:c:\users\damian\desktop\ksiazkaadresowauml\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1590751803 c:\users\damian\desktop\ksiazkaadresowauml\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1590999604 c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<windows.h>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1590999671 c:\users\damian\desktop\ksiazkaadresowauml\plikzuzytkownikami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1590680199 source:c:\users\damian\desktop\ksiazkaadresowauml\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1590752498 source:c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.cpp
+	"UzytkownikMenedzer.h"
+
+1590998848 source:c:\users\damian\desktop\ksiazkaadresowauml\adresatmenedzer.cpp
+	"AdresatMenedzer.h"
+
+1590751990 source:c:\users\damian\desktop\ksiazkaadresowauml\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1590680357 source:c:\users\damian\desktop\ksiazkaadresowauml\adresat.cpp
+	"Adresat.h"
+
+1590680357 c:\users\damian\desktop\ksiazkaadresowauml\adresat.h
+	<iostream>
+
+1590999267 c:\users\damian\desktop\ksiazkaadresowauml\adresatmenedzer.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<windows.h>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+	"UzytkownikMenedzer.h"
+
+1590998073 c:\users\damian\desktop\ksiazkaadresowauml\plikzadresatami.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	"Uzytkownik.h"
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1590752498 c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.cpp
+	"UzytkownikMenedzer.h"
+
