@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1591446665 source:c:\users\damian\desktop\ksiazkaadresowauml\ksiazkaadresowa.cpp
+1591827311 source:c:\users\damian\desktop\ksiazkaadresowauml\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
-1591446675 source:c:\users\damian\desktop\ksiazkaadresowauml\main.cpp
+1591864439 source:c:\users\damian\desktop\ksiazkaadresowauml\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1591446665 c:\users\damian\desktop\ksiazkaadresowauml\ksiazkaadresowa.h
+1591864439 c:\users\damian\desktop\ksiazkaadresowauml\ksiazkaadresowa.h
 	<iostream>
 	"UzytkownikMenedzer.h"
 	"AdresatMenedzer.h"
@@ -14,18 +14,18 @@
 1590336147 c:\users\damian\desktop\ksiazkaadresowauml\uzytkownik.h
 	<iostream>
 
-1590319953 source:c:\users\damian\desktop\ksiazkaadresowauml\uzytkownik.cpp
+1591692182 source:c:\users\damian\desktop\ksiazkaadresowauml\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1591447365 source:c:\users\damian\desktop\ksiazkaadresowauml\metodypomocnicze.cpp
+1591805465 source:c:\users\damian\desktop\ksiazkaadresowauml\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1591446284 c:\users\damian\desktop\ksiazkaadresowauml\metodypomocnicze.h
+1591805465 c:\users\damian\desktop\ksiazkaadresowauml\metodypomocnicze.h
 	<iostream>
 	<sstream>
 	<algorithm>
 
-1591444117 c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.h
+1591449731 c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.h
 	<iostream>
 	<fstream>
 	<sstream>
@@ -34,33 +34,34 @@
 	"Uzytkownik.h"
 	"PlikZUzytkownikami.h"
 
-1591444117 c:\users\damian\desktop\ksiazkaadresowauml\plikzuzytkownikami.h
+1591872871 c:\users\damian\desktop\ksiazkaadresowauml\plikzuzytkownikami.h
 	<iostream>
 	<fstream>
 	<vector>
 	<cstdlib>
 	"Uzytkownik.h"
+	"PlikTekstowy.h"
 	"MetodyPomocnicze.h"
 
-1591444841 source:c:\users\damian\desktop\ksiazkaadresowauml\plikzuzytkownikami.cpp
+1591872871 source:c:\users\damian\desktop\ksiazkaadresowauml\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
-1591444882 source:c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.cpp
+1591449731 source:c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
 
-1591445759 source:c:\users\damian\desktop\ksiazkaadresowauml\adresatmenedzer.cpp
+1591873578 source:c:\users\damian\desktop\ksiazkaadresowauml\adresatmenedzer.cpp
 	"AdresatMenedzer.h"
 
-1591445455 source:c:\users\damian\desktop\ksiazkaadresowauml\plikzadresatami.cpp
+1591872691 source:c:\users\damian\desktop\ksiazkaadresowauml\plikzadresatami.cpp
 	"PlikZAdresatami.h"
 
-1591276505 source:c:\users\damian\desktop\ksiazkaadresowauml\adresat.cpp
+1591449731 source:c:\users\damian\desktop\ksiazkaadresowauml\adresat.cpp
 	"Adresat.h"
 
-1591444117 c:\users\damian\desktop\ksiazkaadresowauml\adresat.h
+1591449731 c:\users\damian\desktop\ksiazkaadresowauml\adresat.h
 	<iostream>
 
-1591444117 c:\users\damian\desktop\ksiazkaadresowauml\adresatmenedzer.h
+1591873732 c:\users\damian\desktop\ksiazkaadresowauml\adresatmenedzer.h
 	<iostream>
 	<sstream>
 	<vector>
@@ -68,91 +69,22 @@
 	"Adresat.h"
 	"PlikZAdresatami.h"
 
-1591445455 c:\users\damian\desktop\ksiazkaadresowauml\plikzadresatami.h
+1591872653 c:\users\damian\desktop\ksiazkaadresowauml\plikzadresatami.h
 	<iostream>
 	<fstream>
 	<vector>
 	<cstdlib>
 	"Adresat.h"
+	"PlikTekstowy.h"
 	"MetodyPomocnicze.h"
 
 1590752498 c:\users\damian\desktop\ksiazkaadresowauml\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
 
-1591276505 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\adresat.cpp
-	"Adresat.h"
+1591871726 source:c:\users\damian\desktop\ksiazkaadresowauml\pliktekstowy.cpp
+	"PlikTekstowy.h"
 
-1591444117 c:\users\damian\desktop\ksiazkaadresowaobiektowo\adresat.h
-	<iostream>
-
-1591445759 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\adresatmenedzer.cpp
-	"AdresatMenedzer.h"
-
-1591444117 c:\users\damian\desktop\ksiazkaadresowaobiektowo\adresatmenedzer.h
-	<iostream>
-	<sstream>
-	<vector>
-	<windows.h>
-	"Adresat.h"
-	"PlikZAdresatami.h"
-
-1591445455 c:\users\damian\desktop\ksiazkaadresowaobiektowo\plikzadresatami.h
+1591873025 c:\users\damian\desktop\ksiazkaadresowauml\pliktekstowy.h
 	<iostream>
 	<fstream>
-	<vector>
-	<cstdlib>
-	"Adresat.h"
-	"MetodyPomocnicze.h"
-
-1591446284 c:\users\damian\desktop\ksiazkaadresowaobiektowo\metodypomocnicze.h
-	<iostream>
-	<sstream>
-	<algorithm>
-
-1591446665 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\ksiazkaadresowa.cpp
-	"KsiazkaAdresowa.h"
-
-1591446665 c:\users\damian\desktop\ksiazkaadresowaobiektowo\ksiazkaadresowa.h
-	<iostream>
-	"UzytkownikMenedzer.h"
-	"AdresatMenedzer.h"
-
-1591444117 c:\users\damian\desktop\ksiazkaadresowaobiektowo\uzytkownikmenedzer.h
-	<iostream>
-	<fstream>
-	<sstream>
-	<vector>
-	<windows.h>
-	"Uzytkownik.h"
-	"PlikZUzytkownikami.h"
-
-1590336147 c:\users\damian\desktop\ksiazkaadresowaobiektowo\uzytkownik.h
-	<iostream>
-
-1591444117 c:\users\damian\desktop\ksiazkaadresowaobiektowo\plikzuzytkownikami.h
-	<iostream>
-	<fstream>
-	<vector>
-	<cstdlib>
-	"Uzytkownik.h"
-	"MetodyPomocnicze.h"
-
-1591446675 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\main.cpp
-	<iostream>
-	"KsiazkaAdresowa.h"
-
-1591447365 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\metodypomocnicze.cpp
-	"MetodyPomocnicze.h"
-
-1591445455 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\plikzadresatami.cpp
-	"PlikZAdresatami.h"
-
-1591444841 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\plikzuzytkownikami.cpp
-	"PlikZUzytkownikami.h"
-
-1590319953 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\uzytkownik.cpp
-	"Uzytkownik.h"
-
-1591444882 source:c:\users\damian\desktop\ksiazkaadresowaobiektowo\uzytkownikmenedzer.cpp
-	"UzytkownikMenedzer.h"
 

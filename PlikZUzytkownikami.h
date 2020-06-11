@@ -7,20 +7,18 @@
 #include <cstdlib>
 
 #include "Uzytkownik.h"
+#include "PlikTekstowy.h"
 #include "MetodyPomocnicze.h"
 
 using namespace std;
 
-class PlikZUzytkownikami
+class PlikZUzytkownikami :public PlikTekstowy
 {
-    const string NAZWA_PLIKU_Z_URZYTKOWNIKAMI;
-
-    bool czyPlikJestPusty();
     string zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik);
     Uzytkownik pobierzDaneUzytkownika(string daneJednegoUzytkownikaOddzielonePionowymiKreskami);
 
 public:
-    PlikZUzytkownikami(string nazwaPlikuZUrzytkownikami) : NAZWA_PLIKU_Z_URZYTKOWNIKAMI(nazwaPlikuZUrzytkownikami){};
+    PlikZUzytkownikami(string nazwaPlikuZUrzytkownikami) : PlikTekstowy(nazwaPlikuZUrzytkownikami){};
     void dopiszUzytkownikaDoPliku(Uzytkownik uzytkownik);
     vector <Uzytkownik> wczytajUzytkownikowZPliku();
     void zapiszWszystkichUzytkownikowDoPliku(vector<Uzytkownik> uzytkownicy);

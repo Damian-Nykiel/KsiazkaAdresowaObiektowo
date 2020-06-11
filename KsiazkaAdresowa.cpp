@@ -52,6 +52,38 @@ void KsiazkaAdresowa::wyswietlWszystkichAdresatow()
     }
 }
 
+void KsiazkaAdresowa::wyszukajAdresatowPoImieniu()
+{
+     if (uzytkownikMenedzer.czyUzytkownikJestZalogowany())
+     {
+        adresatMenedzer->wyszukajAdresatowPoImieniu();
+     }
+}
+
+void KsiazkaAdresowa::wyszukajAdresatowPoNazwisku()
+{
+     if (uzytkownikMenedzer.czyUzytkownikJestZalogowany())
+     {
+        adresatMenedzer->wyszukajAdresatowPoNazwisku();
+     }
+}
+
+void KsiazkaAdresowa::usunAdresata()
+{
+     if (uzytkownikMenedzer.czyUzytkownikJestZalogowany())
+     {
+        adresatMenedzer->usunAdresata();
+     }
+}
+
+void KsiazkaAdresowa::edytujAdresata()
+{
+     if (uzytkownikMenedzer.czyUzytkownikJestZalogowany())
+     {
+        adresatMenedzer->edytujAdresata();
+     }
+}
+
 bool KsiazkaAdresowa::czyUzytkownikJestZalogowany()
 {
     if (uzytkownikMenedzer.czyUzytkownikJestZalogowany())
